@@ -20,3 +20,16 @@ print(meals)
 
 meals.remove("Masa")
 print(meals)
+
+meals.remove("Fura da Nono")
+meals.append("Fura da Nono")
+
+center_index = len(meals) // 2
+center_meal = meals[center_index]
+
+meals.sort()
+
+# Final output
+print("Final Meal List (Alphabetically Ordered):")
+print(meals)
+print("Center Meal:", center_meal)
