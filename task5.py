@@ -36,7 +36,7 @@ print(friends)
 
 # Question 5
 print("Question 5>>>>>")
-friends1 = ['Aisha_M', 'Esther', 'John']
+friends1 =[friends[0:3]]
 print(friends1)
 
 # Question 
